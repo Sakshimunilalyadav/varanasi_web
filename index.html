@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"content="with=device-width, initial-scale=1.0">        
+        <title>The City Of Temples </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+<section  class="header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="map.html">MAP</a></li>
+                <li><a href="review.html">REVIEW</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>The place of Temples</h1>
+    <a href="https://en.wikipedia.org/wiki/Varanasi" class="hero-btn">Visit Us To know More</a>
+</div>
+
+</section>
+
+<!-----varanasi -->
+
+<section class="Varanasi">
+    <h1>VARANASI</h1>
+    <p>Lying in the south of Uttar Pradesh, on the banks of the holy River Ganga, breathes Varanasi, which is believed  to be the  the oldest living city in the world. For centuries, the mystic of this place has been attracting pilgrims from across India as well as abroad. A dwelling of ancient domes, muths, ashrams, priests, narrow lanes with shops filled with Benaresi sarees, Varanasi represents the colorful and fascinating India of your dreams. With intimate rituals of life and death being parallelly performed on the Ghats, you’ll find it exhilarating to explore the religious geography of this city. Walk through the busy alleyways or watch the sunrise from a boat for an unforgettable experience. Trace the perimeter of the city, paying homage to shrines all the way. Who knows, a journey to this City of Light may turn out to be your favorite stop of all.</p>
+     
+    <div class="row">
+        <div class="Varanasi-col">
+                <h4>KASHI VISHWANATH TEMPLE</h4>
+                <p>Also known as the Golden Temple, it is dedicated to Lord Shiva, the presiding deity of the city. Varanasi is said to be the point at which the first jyotirlinga, the fiery pillar of light by which Shiva manifested his supremacy over other gods, broke through the earth's crust and flared towards the heavens. To reach here, tourists have to pass through Kashi Vishwanath Gali, famous for its shops selling pooja items and sweets. There’s also a popular ladies corner in its alleyway that tourists explore for affordable shopping.</p>
+            </div>
+            <div class="Varanasi-col">
+                <h4>GHATS OF VARANASI</h4>
+                <p>The  great  well constructed  river  banks  are called  Ghats.  On  these ghats, are  located  high pavilions, palaces, temples and terraces,  which  add further  charm to  the  beautiful river bank. The  ghats  are  frequented  by the people  which include early morning bathers, priests, people  practicing meditation and yoga, students and  tourists  as  well.  The  eternal crematorium is located  at  Manikarnika Ghat. It is  believed that  the person,  who  is  creamed at this place,   attains  salvation  from the cycle of  birth  and  death.</p>
+        </div>
+        <div class="Varanasi-col">
+            <h4>BHARAT MATA TEMPLE</h4>
+            <p>Built by Babu Shiv Prasad Gupt and inaugurated by Mahatma Gandhi in 1936 the Bhart Mata Temple is a model of undivided India. The temple is located in the Mahatma Gandhi Kashi Vidyapeeth campus in Varanasi and is amongst the most visited tourist destination of Varanasi. The most striking aspect of Bharat Mata Temple is that instead of gods and goddesses, the temple houses a relief map of undivided India, carved out of marble. The temple is a rare instance of something attributed to nationalism and a tribute to everyone who participated in the making of India.</p>
+        </div>
+    </div>
+    
+
+</section>
+
+<!----------Famous ------->
+
+<section class="Famous">
+    <h1>Famous Things</h1>
+    
+
+    <div class="row">
+        <div class="Famous-col">
+            <img src="dr.png">
+            <div class="layer">
+                <h3>Saree</h3>
+            </div>
+        </div>
+        <div class="Famous-col">
+            <img src="food.png">
+            <div class="layer">
+                <h3>Food</h3>
+            </div>
+        </div>
+        <div class="Famous-col">
+            <img src="bhu.png">
+            <div class="layer">
+                <h3>BHU</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+
+<!----------Can Travel Through --------->
+
+<section class="Travel">
+    <h1>Can Travel Through</h1>
+
+
+    <div class="row">
+        <div class="Travel-col">
+                <img src="flight.png">
+                <h3>Air</h3>
+                <p>The city’s airport is very well connected by flights from major cities in India.</p>
+        </div>
+        <div class="Travel-col">
+                <img src="train.png">
+                <h3>Train</h3>
+                <p>Varanasi is a major railway junction connecting several important cities in India.</p>
+        </div>
+        <div class="Travel-col">
+                <img src="bus.png">
+                <h3>Road</h3>
+                <p>Varanasi is connected by good motorable roads to all places in India.</p>
+        </div>
+    </div>
+  
+    
+</section>
+
+<!---------Footer --------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This page is about Varanasi district.<br>Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by RJ College student</p>
+</section>
+
+<!------Javascript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+ </body>
+</html>
